@@ -2,14 +2,17 @@
   "name": "merit-meets-reality",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://elnukk.github.io/merit-meets-reality",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "npm run build && gh-pages -d dist",
     "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.0",
+    "gh-pages": "^6.3.0",
     "svelte": "^3.59.0",
     "vite": "^4.3.0"
   },
